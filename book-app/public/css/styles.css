@@ -1,0 +1,52 @@
+.navbar-size {
+  width: 95%;
+  margin: 0 auto;
+}
+
+nav .brand-logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo-image {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.main-body {
+  background-color: #f5f5f5;
+  min-height: calc(100vh - 64px);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#heading {
+  color: #333;
+}
+
+.flow-text {
+  color: #555;
+}
+
+.main-image {
+  margin: 20px auto;
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.load-button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.card-reveal {
+  color: black;
+}
+
+.card-reveal .card-title,
+.card-reveal p {
+  color: black;
+}

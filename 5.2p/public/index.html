@@ -3,14 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Books Catalog</title>
+  <title>MVC Books Catalog</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Books Catalog</h1>
-    <p>Available books</p>
-    <div id="books-list"></div>
+    <h2>Books Catalogue developed by 224780957</h2>
+    <p>Click the button below to get all book items from the server:</p>
+
+    <button id="getBooksBtn">Get all books</button>
+
+    <div id="books-list" class="books-list"></div>
+
+    <div id="book-details" class="book-details">
+      <h3>Book Details</h3>
+      <p>Click a book to see details.</p>
+    </div>
   </div>
 
   <script src="script.js"></script>

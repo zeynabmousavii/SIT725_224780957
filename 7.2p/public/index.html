@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Real-Time Task Status Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Real-Time Task Status Board</h1>
+  <p>This app uses Socket.IO to update tasks instantly across connected browsers.</p>
+
+  <div class="form">
+    <input id="taskInput" type="text" placeholder="Enter a new task">
+    <button onclick="addTask()">Add Task</button>
+  </div>
+
+  <div id="taskList"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

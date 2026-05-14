@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  padding: 30px;
+}
+
+h1 {
+  color: #222;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 4px;
+  cursor: pointer;
+  border: none;
+  background: #1976d2;
+  color: white;
+  border-radius: 5px;
+}
+
+.task-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+strong {
+  color: #1976d2;
+}

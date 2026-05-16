@@ -14,6 +14,12 @@ let tasks = [
   { id: 3, title: "Test dashboard UI", status: "Done" }
 ];
 
+app.get('/api/message', (req, res) => {
+    res.json({
+        message: "Socket.IO server is running"
+    });
+});
+
 io.on("connection", (socket) => {
   console.log("A user connected:", socket.id);
 
@@ -44,6 +50,12 @@ io.on("connection", (socket) => {
 });
 
 const PORT = 3000;
-server.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-});
+
+if (require.main === module) {
+    server.listen(PORT, () => {
+
+        console.log(`Server running on port ${PORT}`);
+    });
+}
+
+module.exports = app;
